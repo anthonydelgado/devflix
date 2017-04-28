@@ -1,0 +1,8 @@
+.card.hoverable {
+    cursor: pointer;
+}
+
+/*.card.hoverable:hover {*/
+    /*background: black !important;*/
+    /*color: white !important;*/
+/*}*/
