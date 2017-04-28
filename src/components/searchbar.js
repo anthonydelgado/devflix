@@ -28,7 +28,10 @@ class SearchBar extends Component {
                                     onChange={ event => this.onInputChange(event.target.value) }
                                 value={this.state.term} />
                                 <label className="label-icon" htmlFor="search"><i className="material-icons">search</i></label>
-                                <i className="material-icons">close</i>
+                                <i className="material-icons"
+                                onClick={ event => {
+                                    document.getElementById("search").value = "";
+                                } } >close</i>
                             </div>
 
                     </div>

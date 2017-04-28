@@ -33,7 +33,8 @@ class App extends Component {
             // this.setState({ videos });
             this.setState({
                 selectedVideo: videos[0],
-                videos: videos
+                videos: videos,
+                autoplay: 0
             });
             console.log(videos);
         });
